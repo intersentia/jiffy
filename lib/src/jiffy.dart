@@ -3,8 +3,8 @@ import 'dart:math';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
 import 'package:jiffy/src/enums/units.dart';
-import 'package:jiffy/src/utils/exception.dart';
 import 'package:jiffy/src/relative_time/relative_time.dart' as relative;
+import 'package:jiffy/src/utils/exception.dart';
 import 'package:jiffy/src/utils/normalize_units.dart';
 import 'package:jiffy/src/utils/ordinalLocale.dart';
 import 'package:jiffy/src/utils/regex.dart';
@@ -110,7 +110,8 @@ class Jiffy {
     'arkw',
     'arsa',
     'ptbr',
-    'sv'
+    'sv',
+    'nl',
   ];
 
   static const _saturdayStartOfWeek = [
